@@ -1,6 +1,14 @@
-# Cross-Modality Person Re-Identification with Memory-based Contrastive Embedding
+## :book: Cross-Modality Person Re-Identification with Memory-based Contrastive Embedding (AAAI 2023)
+# [Paper] https://ojs.aaai.org/index.php/AAAI/article/view/25116
 
 Pytorch Code of the proposed method for VI-ReID on SYSU-MM01 dataset [1] and  RegDB dataset [2]. 
+
+## :wrench: Dependencies and Installation
+
+- Python >= 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
+- [PyTorch >= 1.7](https://pytorch.org/)
+- Option: NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
+- Option: Linux
 
 ### 1. Prepare the datasets.
 
@@ -41,10 +49,24 @@ python test.py --mode all --resume 'model_path' --gpu 0 --dataset sysu
 
 - `--gpu`:  which gpu to run.
 
-  
-
-###  5. References
+###  4. References
 
 [1] A. Wu, W.-s. Zheng, H.-X. Yu, S. Gong, and J. Lai. Rgb-infrared crossmodality person re-identification. In IEEE International Conference on Computer Vision (ICCV), pages 5380–5389, 2017.
 
 [2] D. T. Nguyen, H. G. Hong, K. W. Kim, and K. R. Park. Person recognition system based on a combination of body images from visible light and thermal cameras. Sensors, 17(3):605, 2017.
+
+### 5. scroll: BibTeX
+
+```
+@inproceedings{cheng2023cross,
+  title={Cross-modality person re-identification with memory-based contrastive embedding},
+  author={Cheng, De and Wang, Xiaolong and Wang, Nannan and Wang, Zhen and Wang, Xiaoyu and Gao, Xinbo},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={1},
+  pages={425--432},
+  year={2023}
+}
+```
+
+If you have any question or collaboration need (research purpose or commercial purpose), please email `dcheng@xidian.edu.cn`.
