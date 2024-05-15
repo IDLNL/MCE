@@ -1,5 +1,5 @@
 ## :book: Cross-Modality Person Re-Identification with Memory-based Contrastive Embedding (AAAI 2023)
-# [Paper] https://ojs.aaai.org/index.php/AAAI/article/view/25116
+[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25116)
 
 Pytorch Code of the proposed method for VI-ReID on SYSU-MM01 dataset [1] and  RegDB dataset [2]. 
 
@@ -55,7 +55,7 @@ python test.py --mode all --resume 'model_path' --gpu 0 --dataset sysu
 
 [2] D. T. Nguyen, H. G. Hong, K. W. Kim, and K. R. Park. Person recognition system based on a combination of body images from visible light and thermal cameras. Sensors, 17(3):605, 2017.
 
-### 5. scroll: BibTeX
+### 5. BibTeX
 
 ```
 @inproceedings{cheng2023cross,
